@@ -1,0 +1,25 @@
+body{
+  background-color: #2d2d2d;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  background-color: white;
+  width: 35%;
+  padding: 2%;
+  overflow-y: auto;
+}
+
+.full-name{
+  font-size:30px
+}
+
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__list-item, .skills__item{
+  padding: 20px;
+}
